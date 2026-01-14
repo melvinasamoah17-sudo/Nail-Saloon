@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="booking.html">Book</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+  <h1>Book an Appointment</h1>
+</header>
+
+<section>
+  <form class="card" id="bookingForm">
+    <label>Name</label>
+    <input type="text" id="name" required>
+
+    <label>Email</label>
+    <input type="email" id="email" required>
+
+    <label>Date</label>
+    <input type="date" id="date" required>
+
+    <label>Service</label>
+    <select id="service">
+      <option>Gel Manicure</option>
+      <option>Acrylic Full Set</option>
+      <option>Simple Nail Art</option>
+      <option>French Tips</option>
+      <option>Gel X</option>
+      <option>Builder Gel</option>
+      <option>Others</option>
+    </select>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+</section>
+  <div class="card" id="appointments"></div>
+
+
+<script src="js.js"></script>
+
+</body>
+</html>
